@@ -1,0 +1,99 @@
+/* Header Styling */
+header {
+    background-color: #2f8f2f;
+    padding: 1rem;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+header h1 {
+    font-size: 1.8rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 1.5rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Sidebar Styling */
+
+.sidebar {
+    width: 20%;
+    float: left;
+    padding: 10px;
+    border-right: 2px solid #ccc;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 10px 0;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+}
+
+.sidebar ul li a:hover {
+    color: #28a745; /* Green for hover effect */
+}
+
+/* Products Display Section */
+.products-display {
+    width: 75%;
+    float: right;
+    padding: 20px;
+}
+
+.product-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.product-item {
+    width: 30%;
+    text-align: center;
+}
+
+.product-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.product-item p {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+    margin-top: 20px;
+}
+

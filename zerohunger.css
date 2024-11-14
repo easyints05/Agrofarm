@@ -1,0 +1,108 @@
+/* Header Styling */
+header {
+    background-color: #2f8f2f;
+    padding: 1rem;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+header h1 {
+    font-size: 1.8rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 1.5rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.zero-hunger {
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+    margin-top: 20px;
+}
+
+.zero-hunger h2 {
+    font-size: 2rem;
+    color: #333;
+}
+
+.zero-hunger p {
+    font-size: 1.2rem;
+    color: #666;
+    line-height: 1.6;
+}
+
+
+
+/* Zero Hunger Section */
+.zero-hunger {
+    padding: 3rem 2rem;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.zero-hunger-content h2 {
+    color: #2f8f2f;
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+}
+
+.zero-hunger-content p {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.6;
+    margin: 1rem 0;
+}
+
+.zero-hunger-image {
+    width: 80%;
+    max-width: 600px;
+    border-radius: 8px;
+    margin-top: 1.5rem;
+}
+
+
+/* Donate Button */
+.donate-button {
+    background-color: #2f8f2f; /* Green color for the button */
+    color: white;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.donate-button:hover {
+    background-color: #3d8f3d; /* Darker green on hover */
+    transform: scale(1.05); /* Slightly enlarges the button on hover */
+}
+
+.donate-button:active {
+    background-color: #267526; /* Even darker green when button is clicked */
+    transform: scale(0.98); /* Slightly shrinks the button on click */
+}
+
+.donate-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(50, 205, 50, 0.6); /* Adds a green glow on focus */
+}
